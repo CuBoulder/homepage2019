@@ -79,8 +79,10 @@ a:hover {
   }
   #navigation ul.action-menu {
     a {
+      line-height: 24px;
       font-weight: 600;
       margin: 12px 5px;
+      padding: 0 5px;
     }
   }
 }
@@ -775,4 +777,7 @@ ul.orgunit-links {
 }
 #mobile-search {
   display: block;
+  .search-fields {
+    margin-bottom: 10px;
+  }
 }

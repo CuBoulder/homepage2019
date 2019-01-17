@@ -27,7 +27,7 @@ a:hover { color: #e51c23; }
 #main-menu-wrapper #navigation ul#main-menu a:hover { background-color: #e7e7e7; color: #000; }
 #main-menu-wrapper #navigation ul#main-menu a.active, #main-menu-wrapper #navigation ul#main-menu a.active-trail { background-color: #cfb87c; color: #000; }
 #main-menu-wrapper #navigation ul#main-menu a#home-link.active { background: transparent; }
-#main-menu-wrapper #navigation ul.action-menu a { font-weight: 600; margin: 12px 5px; }
+#main-menu-wrapper #navigation ul.action-menu a { line-height: 24px; font-weight: 600; margin: 12px 5px; padding: 0 5px; }
 
 ul#action-menu a { color: #333; }
 
@@ -228,3 +228,4 @@ ul.orgunit-links a:before { padding-right: 5px; font-family: FontAwesome; conten
   .homepage-brand-bar-container .mobile-menu-toggle { display: none; } }
 
 #mobile-search { display: block; }
+#mobile-search .search-fields { margin-bottom: 10px; }
