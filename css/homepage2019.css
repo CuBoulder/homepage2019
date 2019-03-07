@@ -230,3 +230,5 @@ ul.orgunit-links a:before { padding-right: 5px; font-family: FontAwesome; conten
 
 #mobile-search { display: block; }
 #mobile-search .search-fields { margin-bottom: 10px; }
+
+#search { z-index: 200; }
