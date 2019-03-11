@@ -713,13 +713,20 @@ ul.orgunit-links {
   & .homepage-logo {
     flex-grow: 1;
   }
-  .homepage-logo,
-  .homepage-beboulder {
+  .homepage-logo {
     img {
       max-width: 180px;
       min-width:180px;
       width:180px;
-      height:auto;
+      height: 17px
+
+    }
+  }
+  .homepage-beboulder {
+    img {
+      max-width: 180px;
+      min-width:180px;
+
     }
   }
   .homepage-logo img {
@@ -730,15 +737,15 @@ ul.orgunit-links {
       img {
         max-width: 240px;
         min-width:180px;
-        width:240px;
         margin-bottom: 0;
+        width:240px;
+        height:23px;
       }
     }
     .homepage-beboulder {
       img {
         max-width: 160px;
         min-width:180px;
-        width:180px;
         margin-right:20px;
       }
     }
@@ -749,13 +756,13 @@ ul.orgunit-links {
         max-width: 320px;
         min-width:180px;
         width:320px;
+        height:30px;
       }
     }
     .homepage-beboulder {
       img {
         max-width: 240px;
         min-width:180px;
-        width:240px;
         margin-right:0;
       }
     }
