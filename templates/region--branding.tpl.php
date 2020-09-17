@@ -13,9 +13,7 @@
       </div>
 
 
-      <div class="homepage-beboulder">
-        <img src="<?php print $beboulder; ?>"  alt="Be Boulder." />
-      </div>
+
 
       <div class="mobile-menu-toggle menu-toggle">
         <button id="toggle" aria-haspopup="true" aria-expanded="false" aria-controls="mobile-menu" aria-label="Navigation"><i class="fa fa-reorder fa-fw" aria-hidden="true"></i><span class=" element-invisible">Menu </span></button>
