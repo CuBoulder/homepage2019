@@ -689,15 +689,10 @@ ul.orgunit-links {
     height: auto;
   }
 }
-
 .homepage-brand-bar-container {
   display: flex;
-  flex-direction: column;
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-    align-items: center;
-  }
-
+  flex-direction: row;
+  align-items: center;
   color:#fff;
   button {
     color:#fff;
@@ -715,10 +710,10 @@ ul.orgunit-links {
   }
   .homepage-logo {
     img {
-      max-width: 180px;
-      min-width:180px;
-      width:180px;
-      height: 17px
+      max-width: 240px;
+      min-width:240px;
+      width:240px;
+      height: 23px
 
     }
   }
@@ -729,17 +724,13 @@ ul.orgunit-links {
 
     }
   }
-  .homepage-logo img {
-    margin-bottom: 10px;
-  }
   @media screen and (min-width:768px) {
     .homepage-logo {
       img {
-        max-width: 240px;
+        max-width: 320px;
         min-width:180px;
-        margin-bottom: 0;
-        width:240px;
-        height:23px;
+        width:320px;
+        height:30px;
       }
     }
     .homepage-beboulder {
@@ -767,7 +758,6 @@ ul.orgunit-links {
       }
     }
   }
-
   .mobile-menu-toggle {
     right:20px;
     margin-left:20px;
