@@ -210,7 +210,7 @@ ul.orgunit-links a:before { padding-right: 5px; font-family: FontAwesome; conten
 /* Degree Programs */
 .field-name-field-degree-prog-image img { width: 100%; height: auto; }
 
-.homepage-brand-bar-container { display: flex; flex-direction: column; flex-direction: row; align-items: center; color: #fff; padding: 20px 0; }
+.homepage-brand-bar-container { display: flex; flex-direction: row; align-items: center; color: #fff; padding: 20px 0; }
 .homepage-brand-bar-container button { color: #fff; }
 .homepage-brand-bar-container a:link, .homepage-brand-bar-container a:visited { color: #fff !important; }
 .homepage-brand-bar-container > * { flex-grow: 0; flex-shrink: 0; }

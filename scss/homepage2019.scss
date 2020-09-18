@@ -689,13 +689,10 @@ ul.orgunit-links {
     height: auto;
   }
 }
-
 .homepage-brand-bar-container {
   display: flex;
-  flex-direction: column;
   flex-direction: row;
   align-items: center;
-
   color:#fff;
   button {
     color:#fff;
@@ -726,9 +723,6 @@ ul.orgunit-links {
       min-width:180px;
 
     }
-  }
-  .homepage-logo img {
-    //margin-bottom: 10px;
   }
   @media screen and (min-width:768px) {
     .homepage-logo {
@@ -764,7 +758,6 @@ ul.orgunit-links {
       }
     }
   }
-
   .mobile-menu-toggle {
     right:20px;
     margin-left:20px;
