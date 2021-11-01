@@ -16,7 +16,7 @@ $spacing: 20px;
   background-clip: padding-box;
 }
 
-$base_font: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base_font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @mixin border_outline($color, $stroke) {
   border:$stroke solid $color;
