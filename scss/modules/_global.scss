@@ -17,6 +17,7 @@ $spacing: 20px;
 }
 
 $base_font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base_font_condensed: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @mixin border_outline($color, $stroke) {
   border:$stroke solid $color;
@@ -66,7 +67,6 @@ $base_font: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-bottom:1px solid $color;
   border-bottom:1px solid $underline;
 }
-
 //
 // element-invisible improved and more robust
 //
